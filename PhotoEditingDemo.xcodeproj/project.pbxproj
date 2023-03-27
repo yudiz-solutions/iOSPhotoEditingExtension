@@ -141,20 +141,20 @@
 			isa = PBXGroup;
 			children = (
 				03AC7AC729C09D380060DEBB /* SelectionView */,
-				03AC7AC629C09A9A0060DEBB /* ViewControllers */,
+				03AC7AC629C09A9A0060DEBB /* ViewController */,
+				038E941E29C091340011D2BF /* PhotoEditingViewController.swift */,
 				038E942029C091340011D2BF /* MainInterface.storyboard */,
 				038E942329C091340011D2BF /* Info.plist */,
 			);
 			path = PhotoEditExt;
 			sourceTree = "<group>";
 		};
-		03AC7AC629C09A9A0060DEBB /* ViewControllers */ = {
+		03AC7AC629C09A9A0060DEBB /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				03AC7ACE29C09EEB0060DEBB /* EditImageVC.swift */,
-				038E941E29C091340011D2BF /* PhotoEditingViewController.swift */,
 			);
-			path = ViewControllers;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		03AC7AC729C09D380060DEBB /* SelectionView */ = {

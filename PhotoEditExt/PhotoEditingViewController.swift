@@ -36,6 +36,10 @@ class PhotoEditingViewController: EditImageVC, PHContentEditingController {
     
     func finishContentEditing(completionHandler: @escaping ((PHContentEditingOutput?) -> Void)) {
         // Update UI to reflect that editing has finished and output is being rendered.
+        if input == nil {
+            self.cancelContentEditing()
+            return
+        }
         DispatchQueue.global().async {
             // Create editing output from the editing input.
             if let input = self.input {
